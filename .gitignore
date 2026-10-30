@@ -1,0 +1,31 @@
+# macOS (AppleDouble files on exFAT/FAT volumes)
+._*
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.tfplan
+# .terraform.lock.hcl is committed on purpose (pins provider versions)
